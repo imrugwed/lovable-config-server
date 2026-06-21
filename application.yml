@@ -19,7 +19,7 @@ eureka:
     prefer-ip-address: true
     hostname: localhost
 
-jwt.secretKey: asfd9asfdaoijfalkjl23u4oi5jlkjf98790890890ugojvakglsdfjn8yuh
+jwt.secretKey: as9b7aodlbjfkluosfd789ujeklfnlsduf90b8ha908w74tuqijvlckajdl
 
 app:
   frontend:
