@@ -17,7 +17,8 @@ spring:
       chat:
         options:
           # model: google/gemini-3-flash-preview
-          model: nvidia/nemotron-3-ultra-550b-a55b:free
+          # model: nvidia/nemotron-3-ultra-550b-a55b:free
+          model: stepfun/step-3.7-flash
           temperature: 0.2
       # embedding:
       #   options:
