@@ -15,7 +15,7 @@ spring:
       routes:
         # Account Service (context-path: /account)
         - id: account-service
-          uri: ${ACCOUNT_SERVICE_URI:lb://account-service}
+          uri: ${ACCOUNT_SERVICE_URI:lb://account-service} #ACCOUNT_SERVICE_URI -> for k8s
           predicates:
             - Path=/api/v1/account/**
           filters:
