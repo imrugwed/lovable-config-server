@@ -37,9 +37,9 @@ spring:
     password: ${DB_PASSWORD}
 
 ai:
-   openai:
-      api-key: ${AI_API_KEY}
-    chat:
-        options:
-          model: google/gemini-3-flash-preview
+  openai:
+    api-key: ${AI_API_KEY}
+  chat:
+      options:
+        model: google/gemini-3-flash-preview
 
